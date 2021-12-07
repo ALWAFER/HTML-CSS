@@ -52,14 +52,19 @@ section {
     font-size: 5vw;
 }
 section.normal {
-    background-color: white;
+    background-color:white;
+    /*background-image:scr="../imagens/background001.jpg";*/
     color: black;
 }
 section.imagem {
-    background-color: rgb( 51, 51, 51);
+    
+    background: url("../imagens/background001.jpg") no-repeat 0px 10px fixed;
+    /*background-image:scr="../background001.jpg";*/
+    /*background-color: rgb( 51, 51, 51);*/
     color: white;    
 }
 section.imagem > p {
+    background: url("../imagens/background002.jpg") no-repeat 0px 10px fixed;
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
